@@ -38,8 +38,8 @@ h2 {
 line-height: 1; 
 padding-top: 500px;
 padding-bottom: 40px;
- /* overflow-wrap: anywhere;
-  word-break: break-word; */
+  overflow-wrap: anywhere;
+  word-break: break-word; 
 
 }
 .photos {
