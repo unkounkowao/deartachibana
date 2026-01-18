@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background: #fffefb;
+  color: #222;
+  font-family: "Noto Serif JP", serif;
+}
+
+.letter {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+  line-height: 1.9;
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+p {
+  margin: 0 0 32px;
+
+}
+
+.big {
+  font-size: 50px;
+line-height: 0.3; 
+padding-bottom: 40px;
+}
+
+figure {
+  margin: 48px 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #666;
+}
+
+.sign {
+  margin-top: 64px;
+  text-align: right;
+}
+
+.counter {
+  display: none;
+}
+
+//.counter {
+  //margin-top: 80px;
+  //text-align: center;
+  //opacity: 0.6;
+//}
