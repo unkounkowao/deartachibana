@@ -1,106 +1,102 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-<meta name="robots" content="noindex,nofollow">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>手紙</title>
+body {
+  margin: 0;
+  background: #fffefb;
+  color: #222;
+  font-family:
+    "M PLUS Rounded 1c",sans-serif;
+    overflow-x: hidden;
 
-  <!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+}
 
-  <link rel="stylesheet" href="style.css">
-</head>
+.letter {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+  line-height: 1.9;
+  font-size: 17px;
+}
 
-<body>
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
 
-  <main class="letter">
+p {
+  margin: 0 0 32px;
+
+}
+
+h2 {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.big {
+  font-size: 200px;
+line-height: 1; 
+padding-top: 500px;
+padding-bottom: 40px;
+/*  overflow-wrap: anywhere;
+  word-break: break-word; */
+
+}
+.photos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: 0;
+}
+
+.photos figure {
+  margin: 0;
+text-align: center;
+}
+
+.photos img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+figcaption {
+  margin-top: 8px;
+margin-bottom: 30px;
+  font-size: 13px;
+  color: #666;
+}
+
+.kaiwa {
+  margin: 48px 0;
+  text-align: center;
+}
+
+.kaiwa img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
 
 
-    <h1>Dear ― Tachibana San</h1>
+.onesans {
+  margin: 48px 0;
+  text-align: center;
+}
 
-    <p>
-      こんにちは！ギャボです　お久しぶりです！<br>
-      お手紙を書くのはこれで3回目です！<br>
-今回は趣向を変えて電子でのお手紙にしてみました。<br><br>
-    </p>
-      
-       <h2>舞台ブレイクマイケース</h2>
-        <p>
-      まずはやっぱりこれですね！<br>
-2.5次元舞台でのメインキャラ役！おめでとうございます！👏👏
+.onesans img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
 
-    </p>
+figcaption {
+  margin-top: 8px;
+margin-bottom: 30px;
+  font-size: 13px;
+  color: #666;
+}
 
-    <p class="big">
-ミカさんなんですか！？！？！？！？？！？😭😭😭😭😭😭😭😭😭
-</p>
-
-<section class="photos">
-  <figure>
-    <img src="Screenshot_20260118-155820.jpeg" alt="" loading="lazy">
-  </figure>
-<figure>
-  <img src="1768719329971.jpeg" alt="" loading="lazy">
-  </figure>
- <figure>
-  <img src="1768719358842.jpeg" alt="" loading="lazy">
-  </figure>
-  <figure>
-    <img src="1768719380678.jpeg" alt="" loading="lazy">
-  </figure>
-  <figure>
-    <img src="1768719390395.jpeg" alt="" loading="lazy">
-   <figcaption>情報解禁当日の友人とのLINE</figcaption>
-
-  </figure>
-</section>
-
-
-
-<h2>ミカさん推し！！！です！！😭😭😭😭😭</h2>
-<p>
-画面開いたら立花さんの顔したミカさんがいて、人生で一番でかい声を出しました😭😭<br>
-ほ、本当に　どういう……どうやって決まったんですか！？<br>
-ブレマイこんなにたくさんのキャラクターがいるのに、<strong>ミカさん！？！？</strong> <br>
-<h2>えーーーーーーー！？！？！？！？</h2>
-まさか立花さんの初めての2.5次元舞台ネームドキャラがミカさんだなんて、立花さんがあたしの大好きな男のおねえさん系キャラを演じてくれるなんて本当に本当に本当に、夢にも思いませんでした😭
-
-
-</p>
-  
-    <figure class="kaiwa">
-      <img src="1000023216.jpeg" alt="" loading="lazy">
-      <figcaption>こんな会話もしている（2025年3月）</figcaption>
-    </figure>
-
-    <figure class="onesans">
-      <img src="G45xqKVaAAASy2b.jpeg" alt="ヴィル・シェーンハイトさん、御門尊さん、謝必安(残花の涙)、残波岬灯台さん、次郎太刀ちゃん、華村翔真さん" loading="lazy">
-      <figcaption>（画像左上から、ヴィル・シェーンハイトさん、御門尊さん、謝必安(残花の涙)、残波岬灯台さん、次郎太刀ちゃん、華村翔真さん）</figcaption>
-    </figure>
-
-    <p>
-      ここから、あなた宛ての文章を書いてください。
-    </p>
-
-    <p class="sign">
-      2026年　ギャボ
-    </p>
-    
-  <div class="counter1">
-  <!-- FC2カウンター ここから -->
-<script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=40697483&main=1"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=40697483&main=1" /></noscript>
-<!-- FC2カウンター ここまで -->
-      </div>
-    
-    <div class="counter2">
-  <!-- FC2カウンター ここから -->
-<script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=89514753"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=89514753" /></noscript>
-<!-- FC2カウンター ここまで -->
-       </div>
-    
-  </main>
-</body>
-</html>
+.sign {
+  margin-top: 64px;
+  text-align: right;
+}
