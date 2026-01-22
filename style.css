@@ -72,6 +72,11 @@ margin-bottom: 30px;
   text-align: center;
 }
 
+.kaiwa figure {
+  margin: 0;
+text-align: center;
+}
+
 .kaiwa img {
   max-width: 100%;
   height: auto;
@@ -80,9 +85,15 @@ margin-bottom: 30px;
 
 
 
+
 .syouko {
   margin: 48px 0;
   text-align: center;
+}
+
+.syouko figure {
+  margin: 0;
+text-align: center;
 }
 
 .syouko img {
