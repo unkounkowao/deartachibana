@@ -57,6 +57,7 @@ text-align: center;
 
 .photos img {
   width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -78,6 +79,7 @@ text-align: center;
 }
 
 .kaiwa img {
+  max-width: 100%;
   max-width: 100%;
   height: auto;
   border-radius: 4px;
@@ -126,6 +128,7 @@ text-align: center;
 
 .koukoku img {
   width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -158,6 +161,7 @@ text-align: center;
 }
 
 .onesans img {
+  width: 100%;
   max-width: 100%;
   height: auto;
   border-radius: 4px;
