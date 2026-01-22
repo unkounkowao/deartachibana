@@ -82,7 +82,6 @@ text-align: center;
   max-width: 100%;
   max-width: 100%;
   height: auto;
-  border-radius: 4px;
 }
 
 
@@ -103,7 +102,6 @@ text-align: center;
   max-width: 100%;
   height: auto;
   display: block;
-  border-radius: 4px;
 }
 
 figcaption {
@@ -152,7 +150,6 @@ text-align: center;
 .atyo img {
   max-width: 70%;
   height: auto;
-  border-radius: 4px;
 }
 
 .onesans {
@@ -164,7 +161,6 @@ text-align: center;
   width: 100%;
   max-width: 100%;
   height: auto;
-  border-radius: 4px;
 }
 
 figcaption {
