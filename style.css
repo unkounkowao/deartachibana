@@ -126,7 +126,7 @@ text-align: center;
 
 .koukoku img {
   width: 100%;
-  max-width: 105%;
+  max-width: 110%;
   height: auto;
   display: block;
 }
@@ -148,7 +148,7 @@ text-align: center;
 }
 
 .atyo img {
-  width: 100%
+  width: 95%
   max-width: 100%;
   height: auto;
 }
