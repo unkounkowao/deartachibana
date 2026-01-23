@@ -79,7 +79,7 @@ text-align: center;
 }
 
 .kaiwa img {
-  width: 100%;
+  max-width: 100%;
   max-width: 100%;
   height: auto;
 }
@@ -148,10 +148,9 @@ text-align: center;
 }
 
 .atyo img {
-  height: 100%
-  max-height: 100%;
-  width: auto;
-  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .onesans {
@@ -160,10 +159,9 @@ text-align: center;
 }
 
 .onesans img {
- width: 100%;
+  width: 100%;
   max-width: 100%;
   height: auto;
-  display: block;
 }
 
 figcaption {
