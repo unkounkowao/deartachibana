@@ -126,7 +126,7 @@ text-align: center;
 
 .koukoku img {
   width: 100%;
-  max-height: 110%;
+  max-height: 100%;
   width: auto;
   display: block;
 }
@@ -149,8 +149,8 @@ text-align: center;
 
 .atyo img {
   width: 100%
-  max-width: 100%;
-  height: auto;
+  max-height: 100%;
+  width: auto;
   display: block;
 }
 
@@ -161,7 +161,7 @@ text-align: center;
 
 .onesans img {
   width: 100%;
-  max-width: 100%;
+  max-height: 100%;
   height: auto;
 }
 
