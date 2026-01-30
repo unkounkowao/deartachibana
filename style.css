@@ -56,7 +56,6 @@ text-align: center;
 }
 
 .photos img {
-  width: 100%;
   max-width: 100%;
   height: auto;
   display: block;
@@ -69,30 +68,20 @@ text-align: center;
 
 .kaiwa {
   text-align: center;
-}
-
-.kaiwa figure {
   margin: 0;
-text-align: center;
 }
 
 .kaiwa img {
-  max-width: 100%;
+  width: 100%;
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 
 .do {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 14px;
-  margin: 0;
-}
-
-.do figure {
-  margin: 0;
 text-align: center;
+  margin: 0;
 }
 
 .do img {
@@ -111,11 +100,7 @@ color: #222;
 
 .syouko {
   text-align: center;
-}
-
-.syouko figure {
-  margin: 0;
-text-align: center;
+ margin: 0;
 }
 
 .syouko img {
@@ -158,14 +143,8 @@ color: #222;
 
 }
 .atyo {
- display: grid;
-  grid-template-columns: 1fr;
-  gap: 14px;
-  margin: 0;
-}
-
-.atyo figure {
 text-align: center;
+  margin: 0;
 }
 
 .atyo img {
