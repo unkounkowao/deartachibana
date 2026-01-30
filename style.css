@@ -85,6 +85,30 @@ text-align: center;
 }
 
 
+.do {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  margin: 0;
+}
+
+.do figure {
+  margin: 0;
+text-align: center;
+}
+
+.do img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+}
+do figcaption {
+  margin-top: 10px;
+margin-bottom: 15px;
+  font-size: 17px;
+color: #222;
+}
+
 
 
 .syouko {
@@ -104,7 +128,7 @@ text-align: center;
   display: block;
 }
 
-figcaption {
+syouko figcaption {
   margin-top: 4px;
 margin-bottom: 30px;
   font-size: 13px;
@@ -130,7 +154,8 @@ text-align: center;
   height: auto;
   display: block;
 }
-.koukoku figcaption {
+
+koukoku figcaption {
   margin-top: 10px;
 margin-bottom: 15px;
   font-size: 17px;
@@ -148,8 +173,7 @@ text-align: center;
 }
 
 .atyo img {
-  width: 100%;
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 
@@ -164,7 +188,7 @@ text-align: center;
   height: auto;
 }
 
-figcaption {
+onesans figcaption {
   margin-top: 8px;
 margin-bottom: 30px;
   font-size: 13px;
