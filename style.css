@@ -23,7 +23,7 @@ h1 {
 }
 
 p {
-  margin: 0 0 16px;
+  margin: 0 0 10px;
 
 }
 
@@ -61,15 +61,13 @@ text-align: center;
   height: auto;
   display: block;
 }
-figcaption {
+.photos figcaption {
   margin-top: 8px;
-margin-bottom: 30px;
   font-size: 13px;
   color: #666;
 }
 
 .kaiwa {
-  margin: 48px 0;
   text-align: center;
 }
 
@@ -102,9 +100,9 @@ text-align: center;
   height: auto;
   display: block;
 }
-do figcaption {
+
+.do figcaption {
   margin-top: 10px;
-margin-bottom: 15px;
   font-size: 17px;
 color: #222;
 }
@@ -112,7 +110,6 @@ color: #222;
 
 
 .syouko {
-  margin: 48px 0;
   text-align: center;
 }
 
@@ -128,9 +125,8 @@ text-align: center;
   display: block;
 }
 
-syouko figcaption {
+.syouko figcaption {
   margin-top: 4px;
-margin-bottom: 30px;
   font-size: 13px;
   color: #666;
 }
@@ -155,20 +151,20 @@ text-align: center;
   display: block;
 }
 
-koukoku figcaption {
+.koukoku figcaption {
   margin-top: 10px;
-margin-bottom: 15px;
   font-size: 17px;
 color: #222;
 
 }
 .atyo {
-  margin: 12px 0;
-  text-align: center;
+ display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  margin: 0;
 }
 
 .atyo figure {
-  margin: 14px;
 text-align: center;
 }
 
@@ -178,7 +174,6 @@ text-align: center;
 }
 
 .onesans {
-  margin: 48px 0;
   text-align: center;
 }
 
@@ -188,14 +183,12 @@ text-align: center;
   height: auto;
 }
 
-onesans figcaption {
+.onesans figcaption {
   margin-top: 8px;
-margin-bottom: 30px;
   font-size: 13px;
   color: #666;
 }
 
 .sign {
-  margin-top: 64px;
   text-align: right;
 }
