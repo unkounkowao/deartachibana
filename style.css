@@ -11,8 +11,8 @@ body {
 .letter {
   max-width: 680px;
   margin: 0 auto;
-  padding: 40px 20px 80px;
-  line-height: 1.9;
+  padding: 40px 15px 80px;
+  line-height: 1.4;
   font-size: 17px;
 }
 
