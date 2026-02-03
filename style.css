@@ -92,9 +92,9 @@ text-align: center;
 }
 
 .do figcaption {
-  margin-top: 10px;
-  font-size: 17px;
-color: #222;
+  margin-top: 8px;
+  font-size: 13px;
+  color: #666;
 }
 
 
@@ -112,7 +112,7 @@ color: #222;
 }
 
 .syouko figcaption {
-  margin-top: 4px;
+  margin-top: 8px;
   font-size: 13px;
   color: #666;
 }
