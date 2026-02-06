@@ -1,253 +1,244 @@
-body {
-  margin: 0;
-  background: #fffefb;
-  color: #222;
-  font-family:
-    "M PLUS Rounded 1c",sans-serif;
-    overflow-x: hidden;
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+<meta name="robots" content="noindex,nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>立花さん手紙</title>
 
-}
+  <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
 
-.letter {
-  max-width: 680px;
-  margin: 0 auto;
-  padding: 40px 15px 80px;
-  line-height: 1.8;
-  font-size: 17px;
-}
+  <link rel="stylesheet" href="style.css">
+</head>
 
-.site-header {
-  width: 100%;
-  margin: 0;
-}
+<body>
 
-.site-header img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
+  <header class="site-header">
+    <img src="2026-02-06 163155.png" alt="">
+  </header>
+
+  <main class="letter">
 
 
-h1 {
-  font-size: 23px;
-  font-weight: 600;
-  margin-bottom: 40px;
-}
+    <p>
+      立花さん、こんにちは！ギャボです！<br>
+   今回は趣向を変えて電子でのお手紙にしてみました。<br>
+目次
+<br>
+    </p>
+     
+        <p>
+      まずはやっぱりこれですね！
+</p>
+      <h1 class="blog-heading js-reveal">
+  <span class="sub">Groovy Stage</span>
+  <span class="main">BREAK MY CASE</span>
+</h1>
+<h1>2.5次元舞台でのメインキャラ役！おめでとうございます‼️‼️‼️‼️😍🤩😍🤩😍🤩👏‼️‼️💪☝️👏👏</h1>
+<p>
+しかも銀河劇場で！！有名な共演者さんもたくさんいて！！<br>
+大きな舞台に出演したいという願いをブログで何度も拝見していたので、ほんと〜〜〜に嬉しいです！！</p>
+<p>
+そしてキャラクターも
+    </p>
 
-p {
-  margin: 0 0 10px;
+    <p class="big">
+ミカさんなんですか！？！？！？！？？！？😭😭😭😭😭😭😭😭😭
+</p>
 
-}
+<section class="photos">
+  <figure>
+    <img src="Screenshot_20260118-155820.jpeg" alt="" loading="lazy">
+  </figure>
+<figure>
+  <img src="1768719329971.jpeg" alt="" loading="lazy">
+  </figure>
+ <figure>
+  <img src="1768719358842.jpeg" alt="" loading="lazy">
+  </figure>
+  <figure>
+    <img src="1768719380678.jpeg" alt="" loading="lazy">
+  </figure>
+  <figure>
+    <img src="1768719390395.jpeg" alt="" loading="lazy">
+   <figcaption>情報解禁当日の友人とのLINE</figcaption>
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap');
+  </figure>
+</section>
 
-.blog-heading {
-  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont,
-    'Helvetica Neue', Arial, sans-serif;
 
-  text-align: left;
 
-  /* 背景（ステージ感） */
-  background: linear-gradient(
-    135deg,
-    #1a1d3a,
-    #0f1126
+<h1>ミカさん推し！！！です！！😭😭😭😭😭</h1>
+<p>
+画面開いたら立花さんの顔したミカさんがいて、人生で一番でかい声を出しました😭😭<br>
+ほ、本当に　どういう……どうやって決まったんですか！？<br>
+ブレマイこんなにたくさんのキャラクターがいるのに、<strong>ミカさん！？！？</strong> <br>
+<h2>えーーーーーーー！？！？！？！？</h2>
+まさか立花さんの初めての2.5次元舞台ネームドキャラがミカさんだなんて、大好きな男のおねえさん系キャラを立花さんが演じてくれるなんて本当に本当に本当に、夢にも思いませんでした😭
+
+
+</p>
+  
+    <figure class="kaiwa">
+      <img src="1000023216.jpeg" alt="" loading="lazy">
+      <figcaption>こんな会話もしている（2025年3月）</figcaption>
+    </figure>
+
+<p>
+ここにきてピンクロングヘアおねえさんメイクのミカさんが立花さんにこれほど似合うなんて思いもしませんでした…！😣<br>
+ほんとにめちゃめちゃかわいい😭😭👏😍😢綺麗な手って中指と薬指をくっつけるんですよねーーわかる 綺麗 かわいい！！😭😭😭アーーー！
+</p>
+
+ <figure class="do">
+      <img src="083433.jpg" alt="" loading="lazy">
+    </figure>
+ <figcaption>別の友人のツイート</figcaption>
+
+<p>
+マジで。<br>
+男のおねえさん大好きなんですよ！！謝必安もね、衣装によってド綺麗なおねえさんになるから大好きなんです😭<br>
+さっきのLINEでしきちゃんに送ってた「好きな男」の写真の右上にいるのが「残花の涙」っていう衣装の謝必安です。隣がミカさん。だからあたしの好きな男2/6も立花さんで本当にやばい。本当に信じられない😭😭<br>
+想像できなかったですよ、だって今までの役は全員普通の男性だったし！おねえさんができるなんて…！？しかもめちゃめちゃ似合ってる、
+可愛い😭<br>
+</p>
+<p>
+というか、初めてイマーシブフォート行って、初めて立花さんのヴァレンティーノに会った日の前日までずっとブレマイやってたんです！！
+</p>
+
+
+    <figure class="syouko">
+      <img src="20260122124902.jpg" alt="" loading="lazy">
+    </figure>
+  <figcaption>奇跡すぎてなんかめっちゃ嘘ついてるみたいだけど嘘じゃないんです、、 誰もが初回しか行かない(決めつけ)ヘンゼルとグレーテルの写真が証拠です……</figcaption>
+<p>
+あのとき立花さんに会った衝撃でゲームやめちゃったんですけど！！
+</p>
+
+<p>
+序盤から大暴れ失礼しました……でもやばいんですって！！ミカさんなの！！！！！？
+</p>
+<p>
+そういうわけで(どういうわけで？) ぴょんぴょん通信の立花涼さん特別号、読みました。<br>
+いや〜、本当に立花さんがミカさんなんだ……<br>
+青年謝必安の頃から信頼できる役者さんだってずーっとわかってますから！立花さんが役を演じることについていつも言及してくださる内容から、早くこの人にネームドキャラを演じてほしいってずーっと思ってましたよ〜！それが！！初めてのネームドキャラがミカさん！！本当に本当に嬉しいんです……！
+</p>
+<p>
+あのですね、立花さんは今は謝必安に一番思い入れがあるように見えるけど、きっとこれから大きな舞台にネームドキャラで出るようになるから、そのときはきっと思い入れランキング一位が謝必安から別のキャラにバトンタッチするんだろうな、そしてヘッダーも変わるんだろうな って考えて寂しい気持ちだったんですけど、もしそれがミカさんなら！寂しさはちょっとだけ減ります！！
+<br>
+そう、チケット、立花さんのキャスト先行が外れたどころか10回くらい申し込んで1公演しか当たらなかったんですよ！それだけたくさんの人が観に来たいと思ってる舞台で立花さんを、立花さんのミカさんを観れるって、なんて幸せなんですか！
+</p>
+
+<p>
+渋谷のデカ広告も見に行きましたよ〜！<br>
+ビッグ駅にデカデカと立花さんが貼り出されてて感動しました、すごい…！😢
+</p>
+
+
+
+<section class="koukoku">
+<figure>
+    <img src="260121190141095.JPG" alt="" loading="lazy">
+<figcaption>めっちゃ発光してました笑</figcaption>
+  </figure>
+<figure>
+  <img src="260121190421465.JPG" alt="" loading="lazy">
+<figcaption>髪の一本も服の材質も鮮明です！</figcaption>
+  </figure>
+ <figure>
+  <img src="260121190239262.JPG" alt="" loading="lazy">
+<figcaption>立花涼って書いてある…(感動)</figcaption>
+  </figure>
+  <figure>
+    <img src="15_20260122091840.jpg" alt="" loading="lazy">
+ <figcaption>ワロタ</figcaption> 
+
+  </figure>
+</section>
+
+
+
+<h2>豪ミせ</h2>
+<p>『豪華列車はミステリーを乗せて』です。<br>
+<strong>南条</strong>🥸さんのことを初めて知ったのは2024年12月で、いきなりダンディな立花さんをTwitterで見つけて横転しました。めちゃくちゃかっこいいじゃないですか！！！スーツイケおじ超似合いますね！！台詞もすごく聞き取りやすなっててお上手でした！！ほかのお客さんもずーっと南条さん撮ってて、すげー人気<br>
+名探偵南条さん、大人のキャラですね〜！イケメン！クール！怪しさしかない！でもお客さんと話してるときはニコニコしてて、どんなキャラでも交流を通して人間味を感じられる、やっぱりイマーシブ演劇って良いな〜と思いました(^_^)</p>
+<p>
+賢ぶった話をするんですが、ミステリーものって推理の過程に面白さがあって、観客は探偵視点でものごとを見て探偵の推理を追って楽しむから、犯人は実は探偵でした！としてしまうとものごとの前提から覆されて面白さが無になるんですね。でもイマーシブの形式だと視点は観客自身にあるので、観客が主体的に推理を担うことに面白さがある。つまり、探偵も容疑者になる……<br>
+フォルテヴィータの真相もそうでしたけど、イマーシブ演劇の仕組みを最大限利用したストーリー構成がとてもうまいですよね〜
+</p>
+<p>
+ちなみに一緒に豪華列車に乗った友人はこんなことを言ってました。わかる〜  
+   <figure class="atyo">
+      <img src="Screenshot_20250311-093418~2.png" alt="" loading="lazy">
+     </figure>
+声がガキっぽいってep4のメイキングで仰ってましたけど、容姿と並列しない珍しい声のタイプで、目立つしキャラクターも立つから強みだと思います💪
+</p>
+
+
+
+<h2>イマーシブフォート</h2>
+<p>フォルテヴィータの追憶。フォルテヴィータ事件簿がとても綺麗な終わり方をしたから、このままが永遠でも構わなかったのですが、やっぱりまた住民たちに会えたのは嬉しかったですねー。<br>
+ヴァレンティーノがガルシアからフィオーネを守る場面があるなんて！！あのシーン、フィオーネを助けるためにステージに上がる直前の立花さんの姿と表情で、役人から無咎を庇って一歩前に出る謝必安がバッとフラッシュバックして、胸が熱かったです…！今度は守れるんだ…！😭😭😭😭<br>
+ガルシアがヴァレンティーノの頭に銃を突きつけてカウントダウンする場面、他の方は0になる直前にフィオーネを抱きしめて守りに入ってたんですけど、立花さんのヴァレンティーノは立ちはだかったまま不動の構えをしてましたね。立花さんのヴァレンティーノって覚悟を決めたときの表情がめちゃめちゃ良いんですよね〜
+</p>
+<p>
+初年度は何回も遊びに行ってたから住民それぞれに思い出があって。(もちろんあんなデカいことが起きたのはあなたのヴァレンティーノだけですけど！)<br>
+他の帰郷者もみんなフォルテヴィータの住民に思い入れがあるんだろうなぁ。だから住民たちを夜明けに導いた帰郷者たちの祈りや願いは、今度はみんなの魂を呼び戻す力となってしまったんだろうか？<br>
+それだけたくさんの人に『フォルテヴィータ事件簿』が愛されていたんですね。私も愛していました。なので卒業論文をフォルテヴィータ事件簿で書きました。(唐突)
+</p>
+
+<p>
+せっかくなので貼っておきますね。比較のためにちょっと豪ミせのことも書いてます。あっ、全然読まなくていいです、ただ立花さんもひとつの理由となって一人のクソガキの選択を動かしているということをお知らせしたくて……😣 
+</p>
+
+
+    <figure class="onesans">
+      <img src="G45xqKVaAAASy2b.jpeg" alt="ヴィル・シェーンハイトさん、御門尊さん、謝必安(残花の涙)、残波岬灯台さん、次郎太刀ちゃん、華村翔真さん" loading="lazy">
+      <figcaption>（画像左上から、ヴィル・シェーンハイトさん、御門尊さん、謝必安(残花の涙)、残波岬灯台さん、次郎太刀ちゃん、華村翔真さん）</figcaption>
+    </figure>
+
+    <p>
+      ここから、あなた宛ての文章を書いてください。
+    </p>
+
+    <p class="sign">
+      2026年　ギャボ
+    </p>
+    
+  <div class="counter1">
+  <!-- FC2カウンター ここから -->
+<script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=40697483&main=1"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=40697483&main=1" /></noscript>
+<!-- FC2カウンター ここまで -->
+      </div>
+    
+    <div class="counter2">
+  <!-- FC2カウンター ここから -->
+<script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=89514753"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=89514753" /></noscript>
+<!-- FC2カウンター ここまで -->
+       </div>
+    
+  </main>
+<script>
+  const targets = document.querySelectorAll('.blog-heading');
+
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    {
+      threshold: 0.4
+    }
   );
 
-  /* 縦を抑えた余白 */
-  padding: 18px 48px;   
-  margin: 32px 0;   
+  targets.forEach(el => observer.observe(el));
+</script>
 
-  /* 左ライン */
-  border-left: 12px solid transparent;
-  border-image: linear-gradient(
-    to bottom,
-    #4facfe,   /* 青寄り */
-    #7b85ff,   /* 青紫 */
-    #b388ff    /* 紫寄り */
-  ) 1;
-
-  line-height: 1.05;
-}
-
-/* サブタイトル */
-.blog-heading .sub {
-  display: block;
-  font-size: 0.9rem;
-  letter-spacing: 0.35em;
-  font-weight: 400;
-  color: #9aa4ff;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-}
-
-/* メインタイトル */
-.blog-heading .main {
-  display: block;
-font-size: clamp(2.0rem, 4.4vw, 3.1rem);
-  letter-spacing: 0.18em;
-  font-weight: 700;
-  color: #ffffff;
-
-  text-shadow:
-    0 0 6px rgba(120, 140, 255, 0.35),
-    0 0 18px rgba(120, 140, 255, 0.2);
-}
-
-/* スマホ最適化 */
-@media (max-width: 600px) {
-  .blog-heading {
-    padding: 10px 10px;
-  }
-
-  .blog-heading .main {
-    letter-spacing: 0.14em;
-  }
-}
-
-h2 {
-  font-size: 19px;
-  font-weight: 700;
- margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-.big {
-  font-size: 200px;
-line-height: 1; 
-padding-top: 500px;
-padding-bottom: 40px;
- overflow-wrap: anywhere;
-  word-break: break-word; 
-
-}
-
-.photos {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0;
-  margin: 0;
-}
-
-.photos figure {
-  margin: 0;
-text-align: center;
-}
-
-.photos img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-.photos figcaption {
-  margin-top: 8px;
-  font-size: 13px;
-  color: #666;
-}
-
-.kaiwa {
-  text-align: center;
-  margin: 0;
-}
-
-.kaiwa img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-.do {
-text-align: center;
-  margin: 0;
-}
-
-.do img {
-  max-width: 80%;
-  height: auto;
-  display: block;
-}
-
-.do figcaption {
-  margin-top: 8px;
-  font-size: 13px;
-  color: #666;
-}
-
-
-
-.syouko {
-  text-align: center;
- margin: 0;
-}
-
-.syouko img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-.syouko figcaption {
-  margin-top: 8px;
-  font-size: 13px;
-  color: #666;
-}
-
-
-.koukoku {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 14px;
-  margin: 0;
-}
-
-.koukoku figure {
-  margin: 0;
-text-align: center;
-}
-
-.koukoku img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-.koukoku figcaption {
-  margin-top: 10px;
-  font-size: 17px;
-color: #222;
-
-}
-.atyo {
-text-align: center;
-  margin: 0;
-}
-
-.atyo img {
-  max-width: 100%;
-  height: auto;
-}
-
-.onesans {
-  text-align: center;
-}
-
-.onesans img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
-
-.onesans figcaption {
-  margin-top: 8px;
-  font-size: 13px;
-  color: #666;
-}
-
-.sign {
-  text-align: right;
-}
+</body>
+</html>
