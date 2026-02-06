@@ -40,6 +40,72 @@ p {
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap');
+
+.blog-heading {
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont,
+    'Helvetica Neue', Arial, sans-serif;
+
+  text-align: left;
+
+  /* 背景（ステージ感） */
+  background: linear-gradient(
+    135deg,
+    #1a1d3a,
+    #0f1126
+  );
+
+  /* 縦を抑えた余白 */
+  padding: 18px 48px;   
+  margin: 32px 0;   
+
+  /* 左ライン */
+  border-left: 12px solid transparent;
+  border-image: linear-gradient(
+    to bottom,
+    #4facfe,   /* 青寄り */
+    #7b85ff,   /* 青紫 */
+    #b388ff    /* 紫寄り */
+  ) 1;
+
+  line-height: 1.05;
+}
+
+/* サブタイトル */
+.blog-heading .sub {
+  display: block;
+  font-size: 0.9rem;
+  letter-spacing: 0.35em;
+  font-weight: 400;
+  color: #9aa4ff;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+/* メインタイトル */
+.blog-heading .main {
+  display: block;
+font-size: clamp(2.1rem, 4.5vw, 3.2rem);
+  letter-spacing: 0.18em;
+  font-weight: 700;
+  color: #ffffff;
+
+  text-shadow:
+    0 0 6px rgba(120, 140, 255, 0.35),
+    0 0 18px rgba(120, 140, 255, 0.2);
+}
+
+/* スマホ最適化 */
+@media (max-width: 600px) {
+  .blog-heading {
+    padding: 20px 20px;
+  }
+
+  .blog-heading .main {
+    letter-spacing: 0.14em;
+  }
+}
+
 h2 {
   font-size: 19px;
   font-weight: 700;
