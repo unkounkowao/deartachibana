@@ -33,7 +33,7 @@
         <p>
       まずはやっぱりこれですね！
 </p>
-      <h1 class="blog-heading">
+      <h1 class="blog-heading js-reveal">
   <span class="sub">Groovy Stage</span>
   <span class="main">BREAK MY CASE</span>
 </h1>
@@ -220,5 +220,25 @@
        </div>
     
   </main>
+<script>
+  const targets = document.querySelectorAll('.blog-heading');
+
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    {
+      threshold: 0.4
+    }
+  );
+
+  targets.forEach(el => observer.observe(el));
+</script>
+
 </body>
 </html>
