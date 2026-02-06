@@ -16,56 +16,16 @@ body {
   font-size: 17px;
 }
 
-
-
-/* h1全体の箱（背景） */
-.title-glitter {
-  background: #0b2a5b; /* 紺色 */
-  padding: 32px 16px 36px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 700;
-  position: relative;
+.site-header {
+  width: 100%;
+  margin: 0;
 }
 
-/* 文字の横グラデーション */
-.title-glitter {
-  background-image:
-    linear-gradient(90deg, #ff7eb3, #ffd26f, #7cf7ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.site-header img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
-
-/* キラキラ下線 */
-.title-glitter::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: 16px;
-  transform: translateX(-50%);
-  width: 80%;
-  height: 2px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255,255,255,0.8),
-    rgba(255,255,255,1),
-    rgba(255,255,255,0.8),
-    transparent
-  );
-  box-shadow:
-    0 0 6px rgba(255,255,255,0.8),
-    0 0 12px rgba(255,255,255,0.6);
-}
-
-/* 背景をちゃんと紺にするためのラッパー対策 */
-.title-glitter {
-  background-color: #0b2a5b;
-}
-
-
-
-
 
 
 h1 {
