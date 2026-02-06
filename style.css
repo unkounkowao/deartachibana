@@ -85,7 +85,7 @@ p {
 /* メインタイトル */
 .blog-heading .main {
   display: block;
-font-size: clamp(2.1rem, 4.5vw, 3.2rem);
+font-size: clamp(2.0rem, 4.4vw, 3.1rem);
   letter-spacing: 0.18em;
   font-weight: 700;
   color: #ffffff;
@@ -98,7 +98,7 @@ font-size: clamp(2.1rem, 4.5vw, 3.2rem);
 /* スマホ最適化 */
 @media (max-width: 600px) {
   .blog-heading {
-    padding: 20px 20px;
+    padding: 10px 10px;
   }
 
   .blog-heading .main {
