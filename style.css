@@ -73,8 +73,9 @@ p {
 
   background: linear-gradient(
     to bottom,
-    #bb8dfe,
-    #6a82fe
+    #4b99ed,  
+    #9070f7,
+    #d87aff
   );
 
   transition: height 0.6s ease;
@@ -95,15 +96,15 @@ p {
 .blog-heading.is-visible .sub {
   opacity: 1;
   transform: translateY(0);
-  transition: opacity 0.45s ease 0.25s,
-              transform 0.45s ease 0.25s;
+  transition: opacity 0.95s ease 0.35s,
+              transform 0.95s ease 0.35s;
 }
 
 .blog-heading.is-visible .main {
   opacity: 1;
   transform: translateY(0);
-  transition: opacity 0.6s ease 0.4s,
-              transform 0.6s ease 0.4s;
+  transition: opacity 0.9s ease 0.7s,
+              transform 0.9s ease 0.7s;
 
   font-size: clamp(2.0rem, 4.4vw, 3.1rem);
   letter-spacing: 0.18em;
