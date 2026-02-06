@@ -46,7 +46,7 @@ h1 {
 
 
 p {
-  margin: 0 0 10px;
+  margin: 0 0 13px;
 
 }
 
@@ -85,7 +85,7 @@ left: 20px; border: 10px solid transparent;
 }
 
 .unko img {
-  width: 10%;
+  width: 15%;
 max-width: 64px;
   height: auto;
   display: block;
@@ -385,5 +385,3 @@ text-align: center;
 .sign {
   text-align: right;
 }
-
-
