@@ -521,8 +521,20 @@ z-index: 3;
   white-space: nowrap; /* 勝手な改行を防ぐ */
 }
 
-/* ▼ アニメーション発動時（is-visibleがついたら） */
-/* ※ is-active を is-visible に変更しました */
+.chk-word::after {
+  content: "";         /* おまじない（必須） */
+  display: block;      /* ブロック要素にして文字の下の行へ配置 */
+  width: 100%;         /* 幅は文字の長さに合わせる */
+  height: 3px;         /* 線の太さ */
+  margin-top: 5px;     /* 文字と線の間の隙間（お好みで調整） */
+
+  /* ▼▼▼ ここがグラデーションの設定 ▼▼▼ */
+  /* 90deg = 左から右へ流れる
+     #000 = 開始色（真っ黒）
+     transparent = 終了色（透明） */
+  background-image: linear-gradient(90deg, #000, transparent);
+}
+
 
 .chk-wrapper.is-visible .chk-text::before {
   animation: chkCover 1.2s cubic-bezier(0.39,0.575,0.565,1) forwards;
