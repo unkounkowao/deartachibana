@@ -40,13 +40,18 @@ h1 {
 }
 
 
+
+.space {
+  margin-top: 56px;
+}
+
 .spacemini {
-  margin-top: 30px;
+  margin-top: 38px;
 }
 
 
 p {
-  margin: 0 0 13px;
+  margin: 0 0 1.8rem;
 
 }
 
@@ -91,9 +96,6 @@ max-width: 64px;
   display: block;
 }
 
-.space {
-  margin-top: 54px;
-}
 
 .blog-heading {
   font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont,
@@ -276,7 +278,7 @@ color: #e739aa;
 
 
 .do {
-text-align: center;
+text-align: left;
   margin: 0;
 }
 
@@ -287,9 +289,9 @@ text-align: center;
 }
 
 .do figcaption {
-  margin-top: 8px;
   font-size: 17px;
-  color: #666;
+  color: #222;
+margin-bottom: 8px;
 }
 
 
@@ -303,6 +305,10 @@ text-align: center;
     0 0 8px rgba(224, 122, 63, 0.25);
 }
 
+.aa {
+font-family: "Yuji Syuku", serif;
+color: #d20000;
+}
 
 .underline {
   text-decoration: underline;
@@ -367,21 +373,25 @@ text-align: center;
 }
 
 .onesans {
-  text-align: center;
+display: flex;
+  text-align: left;
+align-items: center; 
+gap: 12px; 
+  margin: 0;
 }
 
 .onesans img {
-  width: 100%;
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
+display: block;
 }
 
 .onesans figcaption {
-  margin-top: 8px;
-  font-size: 13px;
+  font-size: 12px;
   color: #666;
 }
 
 .sign {
   text-align: right;
 }
+
