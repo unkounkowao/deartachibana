@@ -51,7 +51,7 @@ h1 {
 
 
 p {
-  margin: 0 0 1.8rem;
+  margin: 0 0 2.4rem;
 
 }
 
@@ -184,7 +184,7 @@ max-width: 64px;
 /* スマホ */
 @media (max-width: 600px) {
   .blog-heading {
-    padding: 10px 10px;
+    padding: 10px 10px 10px 13px;
   }
 
   .blog-heading .main {
@@ -289,6 +289,7 @@ text-align: left;
 }
 
 .do figcaption {
+text-align: left;
   font-size: 17px;
   color: #222;
 margin-bottom: 8px;
@@ -381,7 +382,8 @@ gap: 12px;
 }
 
 .onesans img {
-  max-width: 50%;
+ width: 30%;
+  max-width: 30%;
   height: auto;
 display: block;
 }
@@ -394,4 +396,3 @@ display: block;
 .sign {
   text-align: right;
 }
-
