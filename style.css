@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&family=Prata&display=swap');
+
 
 
 
@@ -62,7 +62,7 @@ p {
 
 .fukidashi { 
 position: relative; 
-background: #eee; 
+background: #f8f3e8; 
 display: inline-block;
 padding: 16px;
 border-radius: 16px;
@@ -78,7 +78,7 @@ content: "";
 position: absolute; 
 top: 100%; /* 親要素の下端に配置 */ 
 left: 20px; border: 10px solid transparent;
- border-top-color: #eee; /* 三角形を作るテクニック */ 
+ border-top-color: #f8f3e8; /* 三角形を作るテクニック */ 
 }
 
 
@@ -313,10 +313,7 @@ color: #d20000;
 }
 
 .underline {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-decoration-color: #6535a7;
-  text-underline-offset: 6px;
+    background: linear-gradient(transparent 70%, #f0e5ff 70%);
 }
 
 
@@ -337,6 +334,15 @@ color: #d20000;
   font-size: 0.85em;
  color: #666;
 }
+
+.hakushin {
+ font-family: "Yuji Syuku", serif;
+}
+
+.kowai {
+color: #413d85;
+}
+
 
 hr.style11 {
   border: none;
@@ -383,8 +389,43 @@ text-align: center;
   margin-top: 10px;
   font-size: 17px;
 color: #222;
-
 }
+
+.namida {
+ font-family: "Yuji Syuku", serif;
+font-size: 40px;
+}
+
+.marker {
+    background: linear-gradient(transparent 70%, #ffe5f5 70%);
+}
+
+.unko2 {
+display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+ padding: 0; 
+}
+
+.unko2 img {
+  width: 10%;
+max-width: 45px;
+  height: auto;
+  display: block;
+}
+
+.unko2 figcaption {
+margin-left: auto;
+  font-size: 10px;
+  font-weight: 600;
+  color: #717171;
+  line-height: 1.4;
+}
+
+
+
+
 .atyo {
 text-align: center;
   margin: 0;
@@ -405,7 +446,7 @@ text-align: center;
   padding: 14px 16px;
   border-radius: 18px;
 
-  background: #fffcf7;
+  background: #fff7e4;
 
   border: 3px dashed #945884; /* ← ミシン線・少し太め */
   margin: 0;
@@ -420,14 +461,99 @@ display: block;
 
 .onesans figcaption {
 margin-left: auto;
-margin-left: auto;
   font-size: 11px;
   font-weight: 600;
   color: #772161;
   line-height: 1.4;
 }
 
+/* 外側の枠（トリガー対象） */
+.chk-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  overflow: hidden;
+  width: 100%; /* 幅を確保 */
+}
 
+/* 文字を囲む枠（ここからはみ出たカバーを隠す） */
+.chk-text {
+  position: relative;
+  overflow: hidden; /* ★これが効いていないと青いのが見えてしまいます */
+  padding: 10px 0; /* 文字の上下が切れないように少し余白 */
+}
+
+/* 待機状態の設定 */
+.chk-text::before,
+.chk-text::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -40px;
+  right: -70px;
+  border-radius: 50vh;
+  z-index: 2;
+  transform: translateX(-105%); /* 最初は左に隠す */
+}
+
+.chk-text::after {
+z-index: 3; 
+  background: linear-gradient(
+    to bottom,
+    #450c0a 0%,  
+    #851717 30%,  
+    #ffe9a2 50%, 
+    #851717 70%,
+    #350806 100%  
+  );
+}
+
+.chk-word {
+  position: relative;
+  z-index: 1;
+  font-family: "Prata", serif;
+  font-size: clamp(24px, 5vw, 60px); /* スマホでも崩れないようにサイズ調整 */
+  font-weight: 700;
+  opacity: 0; /* 最初は見えない */
+  transform: translateX(-130%) skewX(8deg);
+  white-space: nowrap; /* 勝手な改行を防ぐ */
+}
+
+/* ▼ アニメーション発動時（is-visibleがついたら） */
+/* ※ is-active を is-visible に変更しました */
+
+.chk-wrapper.is-visible .chk-text::before {
+  animation: chkCover 1.2s cubic-bezier(0.39,0.575,0.565,1) forwards;
+}
+
+.chk-wrapper.is-visible .chk-text::after {
+  animation: chkCover 1.2s cubic-bezier(0.39,0.575,0.565,1) forwards;
+  animation-delay: 0.16s;
+}
+
+.chk-wrapper.is-visible .chk-word {
+  animation: chkText 0.8s cubic-bezier(0.16,1,0.3,1) forwards;
+  animation-delay: 0.3s;
+}
+/* キーフレーム */
+@keyframes chkCover {
+  0%   { transform: translateX(-105%); }
+  60%  { transform: translateX(0); }
+  100% { transform: translateX(105%); }
+}
+
+@keyframes chkText {
+  0% {
+    opacity: 0;
+    transform: translateX(-110%) skewX(8deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) skewX(0);
+  }
+}
 .sign {
   text-align: right;
 }
