@@ -351,6 +351,14 @@ hr.style11 {
     );
 }
 
+.shibuya {
+  color: #850000;
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
 
 .koukoku {
   display: grid;
@@ -390,7 +398,7 @@ text-align: center;
 .onesans {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 6px;
 
   position: relative;
 
@@ -404,14 +412,15 @@ text-align: center;
 }
 
 .onesans img {
- width: 50%;
-  max-width: 50%;
+ width: 60%;
+  max-width: 60%;
   height: auto;
 display: block;
 }
 
 .onesans figcaption {
-text-align: right;
+margin-left: auto;
+margin-left: auto;
   font-size: 11px;
   font-weight: 600;
   color: #772161;
