@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
 
 
@@ -7,8 +7,7 @@ body {
   margin: 0;
   background: #fffefb;
   color: #222;
-  font-family:
-    "M PLUS Rounded 1c",sans-serif;
+  font-family: "M PLUS Rounded 1c",sans-serif;
     overflow-x: hidden;
 
 }
@@ -42,7 +41,7 @@ h1 {
 
 
 .space {
-  margin-top: 56px;
+  margin-top: 100px;
 }
 
 .spacemini {
@@ -51,7 +50,7 @@ h1 {
 
 
 p {
-  margin: 0 0 2.4rem;
+  margin: 0 0 2.5rem;
 
 }
 
@@ -184,7 +183,7 @@ max-width: 64px;
 /* スマホ */
 @media (max-width: 600px) {
   .blog-heading {
-    padding: 10px 10px 10px 17px;
+    padding: 10px 10px 10px 20px;
   }
 
   .blog-heading .main {
@@ -195,7 +194,7 @@ max-width: 64px;
 
 
 h2 {
-  font-size: 19px;
+  font-size: 22px;
   font-weight: 700;
  margin-top: 30px;
   margin-bottom: 10px;
@@ -237,7 +236,7 @@ text-align: center;
 .mikasan {
 color: #e739aa;
   font-size: 26px;
-  font-weight: 1300;
+  font-weight: 900;
  margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -296,14 +295,16 @@ margin-bottom: 8px;
 }
 
 
+
 .zan-ka {
   font-family: "Yuji Syuku", serif;
   font-size: 1.3rem;
   letter-spacing: 0.1em;
   color: #e07a3f;
+ text-shadow: 
+ 1px 1px 0.5px rgba(70, 70, 70, 7),
+  0 0 8px rgba(255, 217, 141, 1.1);
 
-  text-shadow:
-    0 0 8px rgba(224, 122, 63, 0.25);
 }
 
 .aa {
@@ -331,10 +332,23 @@ color: #d20000;
   display: block;
 }
 
-.syouko figcaption {
-  margin-top: 8px;
-  font-size: 13px;
-  color: #666;
+
+.kogoe {
+  font-size: 0.85em;
+ color: #666;
+}
+
+hr.style11 {
+  border: none;
+  height: 6px;
+  background:
+    repeating-linear-gradient(
+      to right,
+      #af82b5 0,
+      #b58294 8px,
+      transparent 8px,
+      transparent 16px
+    );
 }
 
 
@@ -374,24 +388,36 @@ text-align: center;
 }
 
 .onesans {
-display: flex;
-  text-align: left;
-align-items: center; 
-gap: 12px; 
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  position: relative;
+
+  padding: 14px 16px;
+  border-radius: 18px;
+
+  background: #fffcf7;
+
+  border: 3px dashed #945884; /* ← ミシン線・少し太め */
   margin: 0;
 }
 
 .onesans img {
- width: 45%;
-  max-width: 45%;
+ width: 49%;
+  max-width: 49%;
   height: auto;
 display: block;
 }
 
 .onesans figcaption {
+text-align: center; 
   font-size: 12px;
-  color: #666;
+  font-weight: 600;
+  color: #772161;
+  line-height: 1.4;
 }
+
 
 .sign {
   text-align: right;
