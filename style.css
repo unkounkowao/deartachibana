@@ -343,6 +343,9 @@ font-family: "Prata", serif;
 font-family: "Yuji Syuku", serif;
 font-size: 80px;
   font-weight: 900;
+line-height: 0.5;
+  letter-spacing: -0.15em;
+
 }
 
 .syouko {
