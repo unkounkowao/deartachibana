@@ -324,6 +324,7 @@ margin-bottom: 8px;
 .aa {
 font-family: "Yuji Syuku", serif;
 color: #d20000;
+  line-height: 1;
 font-size: 1.5rem;
 }
 
@@ -688,4 +689,3 @@ z-index: 3;
 .sign {
   text-align: right;
 }
-
