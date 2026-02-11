@@ -324,6 +324,7 @@ margin-bottom: 8px;
 .aa {
 font-family: "Yuji Syuku", serif;
 color: #d20000;
+font-size: 1.5rem;
 }
 
 .underline {
@@ -539,6 +540,21 @@ text-align: center;
   height: auto;
 }
 
+
+
+
+.gyabo {
+text-align: center;
+}
+
+.gyabo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
 .onesans {
   display: flex;
   align-items: center;
@@ -672,3 +688,4 @@ z-index: 3;
 .sign {
   text-align: right;
 }
+
