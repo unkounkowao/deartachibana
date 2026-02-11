@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1TXXEHL4K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q1TXXEHL4K');
+</script>
+
   <meta charset="UTF-8">
 <meta name="robots" content="noindex,nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>立花さん手紙</title>
+
 
   <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -162,7 +173,7 @@ LINE開いたら<strong style="color:#6535a7;">ミカさんの見た目をした
 <h1>マジで。</h1>
 
 <div class="space"></div>
-<p>想像できなかったですよ！だって今までの役は全員普通の男性だったし！
+<p>想像できないですよ！だって今までの役は全員普通の男性だったし！
 </p>
 <p>
 でも、ちゃんと男性の肩幅の広さがあって、開いた胸元から見えてるキレイな胸筋と、ウエストからｷｭｯと細くなってるスタイルの、ブリリアント美人ミカさんを……演じるのが立花さん…………<br>
@@ -192,8 +203,8 @@ LINE開いたら<strong style="color:#6535a7;">ミカさんの見た目をした
 
 <p>
 ここにきて<span class="mika-elegant">ピンクロングヘアおねえさんメイクのミカさん</span>
-が立花さんにこれほど似合うなんて思いもしませんでした…！😣<br>
-ほんとにめちゃめちゃかわいい😭😭👏😍😢綺麗 かわいい！！😭😭😭<strong class= "aa">アーーー！</strong>
+が立花さんにこれほど似合うなんて！！全然気づかなかった…！！😣<br>
+ほんとにめちゃめちゃかわいい😭😭👏😍😢綺麗 顔がきれいだ　自信ありげな表情がとてもミカさんだ、指先まで美しいし、ボリュームのあるまつ毛と目と距離の近い眉毛がまんま「女性的美しさを持つ男性」で、お顔の直線パーツと丸みパーツのバランスがとても合っていて、<strong class= "aa">アーーー！</strong>
 </p>
 
 <div class="spacemini"></div>
@@ -232,7 +243,7 @@ LINE開いたら<strong style="color:#6535a7;">ミカさんの見た目をした
 <div class="space"></div>
 
 <p>
-というか、<strong style="color: #6535a7;">初めてイマーシブフォートに行って、初めて立花さんのヴァレンティーノに会った日の前日までずっとブレマイやってたんです！！</strong>
+そういえば！！<strong style="color: #6535a7;">初めてイマーシブフォートに行って、初めて立花さんのヴァレンティーノに会った日の前日までずっとブレマイやってたんです！！</strong>
 </p>
 
 
@@ -403,7 +414,7 @@ LINE開いたら<strong style="color:#6535a7;">ミカさんの見た目をした
 
 
 <h1>
-いざ、レヴァニエール号へ
+いざ、レヴァリエール号へ
 </h1>
 
 <p>
@@ -530,15 +541,11 @@ LINE開いたら<strong style="color:#6535a7;">ミカさんの見た目をした
 
     
   <div class="counter1">
-
 <script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=40697483&main=1"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=40697483&main=1" /></noscript>
-
       </div>
     
     <div class="counter2">
-  
 <script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=89514753"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=89514753" /></noscript>
-
        </div>
     
   </main>
@@ -561,6 +568,25 @@ LINE開いたら<strong style="color:#6535a7;">ミカさんの見た目をした
   );
 
   targets.forEach(el => observer.observe(el));
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+
+  const images = document.querySelectorAll('img');
+
+  images.forEach(function(img) {
+    img.addEventListener('contextmenu', function() {
+      
+      gtag('event', 'image_save_attempt', {
+        'event_category': 'Image Interaction',
+        'event_label': img.src 
+      });
+
+      console.log('画像を検知しました: ' + img.src);
+    });
+  });
+});
 </script>
 
 </body>
